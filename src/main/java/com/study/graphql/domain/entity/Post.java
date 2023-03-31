@@ -26,7 +26,6 @@ public class Post {
 
     private LocalDate date;
 
-    @ManyToOne
-    private User user;
+    private String writer;
 
 }
